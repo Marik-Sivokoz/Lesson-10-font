@@ -1,0 +1,42 @@
+body{
+    font-family: 'Roboto' , sans-serif;
+}
+.header-navigation{
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.header-list{
+    font-style: none;
+}
+.header-link{
+    color: var(--acent-color-aqua);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.header-link:hover{
+    color: var(--acent-color-orange);
+}
+.we-work-with-title{
+   color: var(--acent-color-dark);   
+}
+.we-work-with-title h3,
+.who-we-are-title h3{
+    font-family: 'Kaushan Script';
+ font-size: 24px;
+}
+
+
+
+
+
+
+:root{
+   --acent-color-aqua: #95E1D3;
+   --acent-color-orange: #F38181;
+   --acent-color-dark: #333333;
+   --acent-color-grey: #B6B6B6;
+}
+/* font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
