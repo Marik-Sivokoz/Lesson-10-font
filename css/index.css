@@ -6,3 +6,8 @@
 }
 /* font-family: 'Playfair Display', serif;
 font-family: 'Ubuntu', sans-serif; */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}

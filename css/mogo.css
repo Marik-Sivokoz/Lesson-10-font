@@ -1,5 +1,19 @@
 body{
     font-family: 'Roboto' , sans-serif;
+    
+}
+
+:root{
+    --acent-color-aqua: #95E1D3;
+    --acent-color-orange: #F38181;
+    --acent-color-dark: #333333;
+    --acent-color-grey: #B6B6B6;
+ }
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .header-navigation{
     font-family: 'Montserrat' , sans-serif;
@@ -25,18 +39,73 @@ body{
     font-family: 'Kaushan Script';
  font-size: 24px;
 }
-
-
-
-
-
-
-:root{
-   --acent-color-aqua: #95E1D3;
-   --acent-color-orange: #F38181;
-   --acent-color-dark: #333333;
-   --acent-color-grey: #B6B6B6;
+.header{
+    padding: 17px 0;
 }
+.we-work-with-title{
+    margin: 68 0;
+    text-align: center;
+}
+.we-work-with-title-line{
+    width: 60px;
+    height: 4px;
+    background-color: var(--acent-color-orange);
+    margin: 40px auto 0 auto;
+}
+
+.we-work-with-item{
+    margin-bottom: 100px;
+}
+
+.we-work-with-list{
+    margin-top: 65px;
+        margin-bottom: 100px;
+}
+
+.who-we-are-title{
+    text-align: center;
+}
+
+.who-we-are-title p{
+    margin-top: 45px;
+}
+
+.who-we-are-list{
+    margin-top: 27px;
+    margin-bottom: 80px;
+}
+
+
+.footer{
+    padding: 10px 0;
+    border-top: 1px solid var(--acent-color-grey);
+
+
+}
+
+.footer-input{
+    width: 230px;
+    height: 39px;
+    border: 1px solid var(--acent-color-grey);
+    display: block;
+    padding-left: 10px;
+}
+
+.footer-input::placeholder{
+    font-size: 14px;
+    font-weight: 300px;
+    font-style: italic;
+}
+
+.who-we-are-item{
+  width: 380px;
+  text-align: center;
+}
+
+
+
+
+
 /* font-family: 'Kaushan Script', cursive;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif; */

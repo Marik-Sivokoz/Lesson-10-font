@@ -4,3 +4,22 @@
    --acent-color-gray: #777;
    --acent-color-input: #BBBBBB;
 }
+.container{
+   width: 1200px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.footer{
+   background-color: #222;
+   margin-top: 157px;
+}
+.service-title{
+   margin-top: 44px;
+   text-align: left;
+}
+
+.service{
+   margin-top: 192px;
+   text-align: center;
+}
