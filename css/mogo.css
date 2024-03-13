@@ -102,10 +102,45 @@ body{
   text-align: center;
 }
 
+.header-list{
+    display: flex;
+}
 
+.header-item:not(:last-child){
+     margin-right: 55px;
+}
 
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.we-work-with-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
-/* font-family: 'Kaushan Script', cursive;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif; */
+.we-work-with-item{
+    width: 330px;
+}
+
+.who-we-are-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.who-we-are-item{
+    margin: 0px;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-form{
+    display: flex;
+}

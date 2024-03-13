@@ -4,6 +4,7 @@
    --acent-color-gray: #777;
    --acent-color-input: #BBBBBB;
 }
+
 .container{
    width: 1200px;
    margin: 0 auto;
@@ -23,3 +24,48 @@
    margin-top: 192px;
    text-align: center;
 }
+
+.header-list{
+   display: flex;
+}
+
+.header-item{
+   margin-right: 55px;
+}
+
+.service{
+   display: flex;
+}
+
+.Services-list{
+   margin-top: 101px;
+   margin-bottom: 140px;
+   list-style: none;
+   display: flex;
+   gap: 56px;
+   justify-content: center;
+   align-items: center;
+   }
+
+   .header .container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   .Services-list{
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .service-item{
+      width: 290  px;
+      text-align: 14px;
+      font-size: 14px;
+   }
+   
+   .footer-form-left,
+   .footer-form-right{
+
+      
+   }

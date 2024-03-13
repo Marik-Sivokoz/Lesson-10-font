@@ -18,26 +18,7 @@ root{
 }
 .shapka {
  display: flex;
+ justify-content: space-between;
  
 }
 
-.shapka1 {
-    display: flex;
-    
-   }
-   
-
-   .shapka3 {
-    display: flex;
-    
-   }
-
-   .shapka4 {
-    display: flex;
-    
-   }
-
-   .shapk5 {
-    display: flex;
-    
-   }
