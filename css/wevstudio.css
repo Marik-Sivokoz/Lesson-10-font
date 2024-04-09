@@ -22,3 +22,61 @@ root{
  
 }
 
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+   
+}
+
+.header{
+    padding: 15px 0;
+}
+
+.shapka1{
+    padding: 200px 0;
+    background-color: #2F303A;
+    color: white;
+}
+
+.shapka3{
+    margin: 94px 0;
+    
+}
+
+.shapka4{
+    margin: 94px 0;
+    
+}
+
+.footer{
+    padding: 94px 0;
+    background-color: #2F303A;
+}
+
+.shapka5{
+    padding: 94px 0;
+
+ 
+}
+
+.shapka5-flex{
+    display: flex;
+    flex-direction: row;
+    
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+    
+}
+
+.shapka5-item{
+    max-width: 270px;
+    margin: 0;
+
+}
+
+.shapka5-foto{
+    width: 100%;
+}
+
