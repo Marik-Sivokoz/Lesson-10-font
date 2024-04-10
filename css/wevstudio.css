@@ -26,7 +26,6 @@ root{
     width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
-   
 }
 
 .header{
@@ -41,6 +40,7 @@ root{
 
 .shapka3{
     margin: 94px 0;
+    justify-content: space-between;
     
 }
 
@@ -56,6 +56,7 @@ root{
 
 .shapka5{
     padding: 94px 0;
+    background-color: #F5F4FA;
 
  
 }
@@ -80,3 +81,11 @@ root{
     width: 100%;
 }
 
+.button{
+    background-color: #2196F3 ;
+}
+
+.article{
+    display: flex;
+    
+}
